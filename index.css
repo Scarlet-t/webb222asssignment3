@@ -1,0 +1,46 @@
+@font-face {
+  font-family: lovely;
+  src: url(https://dl.dropbox.com/s/xde2bkhiie1bm8r/LovelyRegular.ttf);
+}
+
+a:link,
+a:visited {
+  font-family: lovely;
+  font-size: 50px;
+  text-shadow:
+    -1px 0 #1f1a1a,
+    0 1px #000,
+    1px 0 #000,
+    0 -1px #000,
+    0 0;
+  color: #fff;
+  text-decoration: none;
+  border: 9px solid #fff;
+  border-radius: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #ffe8f7;
+  margin: auto;
+}
+
+a:hover {
+  color: #fffdd9;
+  border-color: #ffe8f7;
+  background-color: #cce7ff;
+}
+
+nav {
+  background-image: url('https://i.ibb.co/jwQR5wQ/ginghamblue.jpg');
+  height: 100%;
+  width: 50%;
+  border: 6px solid #fff;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  box-shadow:
+    5px 5px 10px #ffebf7,
+    -5px -5px 10px #ffebf7;
+}

@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Kawaii Bubble';
+  src: url('https://db.onlinewebfonts.com/t/73c6fba2306d710bfcd5c361d77b6558.eot');
+  src:
+    url('https://db.onlinewebfonts.com/t/73c6fba2306d710bfcd5c361d77b6558.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/73c6fba2306d710bfcd5c361d77b6558.woff2') format('woff2'),
+    url('https://db.onlinewebfonts.com/t/73c6fba2306d710bfcd5c361d77b6558.woff') format('woff'),
+    url('https://db.onlinewebfonts.com/t/73c6fba2306d710bfcd5c361d77b6558.ttf') format('truetype'),
+    url('https://db.onlinewebfonts.com/t/73c6fba2306d710bfcd5c361d77b6558.svg#Kawaii Bubble')
+      format('svg');
+}
+
+.comfortaa {
+  font-family: 'Comfortaa', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h3 {
+  font-family: Kawaii Bubble;
+  font-size: 30px;
+  text-shadow:
+    -1px 0 #1f1a1a,
+    0 1px #000,
+    1px 0 #000,
+    0 -1px #000,
+    0 0;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.about {
+  background-image: url('https://i.ibb.co/jwQR5wQ/ginghamblue.jpg');
+  background-repeat: repeat;
+  height: 450px;
+  width: 700px;
+  border: 6px solid #fff;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  box-shadow:
+    5px 5px 10px #ffebf7,
+    -5px -5px 10px #ffebf7;
+  overflow: scroll;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+p {
+  background-color: rgba(255, 255, 255, 70);
+  border: hidden;
+  border-radius: 10px;
+  font-family: Comfortaa;
+  font-size: 15px;
+  text-align: left;
+  color: #5c5b7b;
+  line-height: 1.5;
+  padding: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 5%;
+}
+
+img {
+  border: hidden;
+  border-radius: 20px;
+}
+
+.audioControl {
+  margin: auto;
+}
